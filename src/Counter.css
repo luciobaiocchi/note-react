@@ -22,9 +22,11 @@
 
 .Counter-buttons {
   display: flex;
-  flex-direction: column; /* da riga a colonna */
+  flex-direction: column;
+  /* da riga a colonna */
   gap: 15px;
-  align-items: center; /* per centrare i bottoni */
+  align-items: center;
+  /* per centrare i bottoni */
 }
 
 .Counter-button {

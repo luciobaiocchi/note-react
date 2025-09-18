@@ -1,0 +1,55 @@
+.NavBar {
+  background-color: #282c34 !important; /* stesso sfondo del Counter */
+  padding: 0.5rem 1rem;
+}
+
+.NavBar .navbar-brand {
+  color: #61dafb !important;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.NavBar .nav-link {
+  color: white !important;
+  transition: color 0.3s ease;
+}
+
+.NavBar .nav-link:hover {
+  color: #61dafb !important;
+}
+
+.NavBar .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.NavBar .dropdown-menu {
+  background-color: #282c34;
+  border: 1px solid #61dafb;
+}
+
+.NavBar .dropdown-item {
+  color: white;
+}
+
+.NavBar .dropdown-item:hover {
+  background-color: #61dafb;
+  color: #282c34;
+}
+
+.NavBar .form-control {
+  border-radius: 8px;
+  border: 1px solid #61dafb;
+}
+
+.NavBar .btn-outline-success {
+  color: #61dafb;
+  border-color: #61dafb;
+  transition: all 0.3s ease;
+}
+
+.NavBar .btn-outline-success:hover {
+  background-color: #61dafb;
+  color: #282c34;
+}
+
+
